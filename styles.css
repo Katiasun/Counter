@@ -65,6 +65,14 @@
   .container {
     text-align: center;
   }
+  h1 {
+    text-transform: capitalize;
+    font-size: 3rem;
+    letter-spacing: var(--spacing);
+    line-height: 1.25;
+    margin-bottom: 0.75rem;
+    font-family: var(--ff-primary);
+  }
   #value {
     font-size: 6rem;
     font-weight: bold;
@@ -87,3 +95,13 @@
     color: var(--clr-white);
     background: var(--clr-black);
   }
+
+  /*Media*/
+
+  @media screen and (min-width: 800px) {
+    h1 {
+      font-size: 4rem;
+      line-height: 1rem;
+    }
+  }
+
