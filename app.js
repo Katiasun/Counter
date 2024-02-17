@@ -17,5 +17,13 @@ buttons.forEach((btn) => {
             count =0;
         }
         value.textContent = count;
+
+        if(count < 0) {
+            value.style.color = "red";
+        }else if(count > 0){
+            value.style.color = "green";
+        }else {
+            value.style.color = "black";
+        }
     });
 });
