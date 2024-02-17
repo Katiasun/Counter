@@ -95,3 +95,13 @@
     color: var(--clr-white);
     background: var(--clr-black);
   }
+
+  /*Media*/
+
+  @media screen and (min-width: 800px) {
+    h1 {
+      font-size: 4rem;
+      line-height: 1rem;
+    }
+  }
+
